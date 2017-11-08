@@ -47,21 +47,13 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-}
-
-#table .tabledivs p{
     font-family: 'Roboto Mono', monospace;
     font-weight:400;
+    position:relative;
 }
 
 #table .available:hover{
     background-color:#eee;
-    cursor:pointer;
-}
-
-#table .reserved{
-    background-color:#adaaaa;
-    cursor:not-allowed;
 }
 
 /*Form*/
@@ -132,4 +124,20 @@ form p{
     padding: 10px 0 10px 0;
     margin-bottom:20px;
 }
+
+.displaydiv{
+    background-color:grey;
+    width:150px;
+    border-radius:3px;
+    position:absolute;
+    font-size:11px;
+    top:75px;
+    left: -40px;
+}
+
+.displaydiv p{
+    margin:2px 0 2px 10px;
+}
+
+
 
