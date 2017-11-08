@@ -54,6 +54,7 @@ body{
 
 #table .available:hover{
     background-color:#eee;
+    cursor: pointer;
 }
 
 /*Form*/
@@ -138,6 +139,3 @@ form p{
 .displaydiv p{
     margin:2px 0 2px 10px;
 }
-
-
-
